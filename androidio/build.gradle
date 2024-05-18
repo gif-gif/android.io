@@ -2,7 +2,7 @@ plugins {
     alias(libs.plugins.android.library)
 }
 
-group = 'com.github.gifgif'
+group = 'com.github.gif-gif'
 
 android {
     namespace 'com.gifgif.androidio'
