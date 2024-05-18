@@ -2,8 +2,10 @@ plugins {
     alias(libs.plugins.android.library)
 }
 
+group = 'com.github.gifgif'
+
 android {
-    namespace 'com.gifgif.android.library'
+    namespace 'com.gifgif.androidio'
     compileSdk 34
 
     defaultConfig {

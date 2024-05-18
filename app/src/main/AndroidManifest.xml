@@ -13,7 +13,7 @@
         android:theme="@style/Theme.Androidio"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name="com.gifgif.androidioex.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.Androidio">
             <intent-filter>
