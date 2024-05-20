@@ -4,6 +4,19 @@ plugins {
 //    alias(libs.plugins.android.maven.gradle.plugin)
 }
 
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+//                from components.release
+                groupId = 'com.github.gif-gif'
+                artifactId = 'androidio'
+                version = '0.0.4'
+            }
+        }
+    }
+}
+
 group = 'com.github.gif-gif'
 
 android {
