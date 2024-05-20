@@ -1,5 +1,7 @@
 [versions]
-agp = "8.4.0"
+agp = "7.3.1"
+androidMavenGradlePlugin = "2.1"
+gradle = "7.5.1"
 junit = "4.13.2"
 junitVersion = "1.1.5"
 espressoCore = "3.5.1"
@@ -10,6 +12,8 @@ navigationFragment = "2.7.7"
 navigationUi = "2.7.7"
 
 [libraries]
+android-maven-gradle-plugin = { module = "com.github.dcendents:android-maven-gradle-plugin", version.ref = "androidMavenGradlePlugin" }
+gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
@@ -22,4 +26,5 @@ navigation-ui = { group = "androidx.navigation", name = "navigation-ui", version
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 android-library = { id = "com.android.library", version.ref = "agp" }
+android-maven-gradle-plugin = { id = "com.github.dcendents:android-maven-gradle-plugin", version.ref = "androidMavenGradlePlugin" }
 
