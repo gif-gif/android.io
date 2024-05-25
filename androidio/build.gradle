@@ -38,7 +38,7 @@ tasks.register('generateSourcesJar', Jar) {
     classifier 'sources'
 }
 
-group = 'com.github.gif-gif'
+//group = 'com.github.gif-gif'
 
 android {
     namespace 'com.gifgif.androidio'
