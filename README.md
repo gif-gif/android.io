@@ -17,7 +17,7 @@ dependencyResolutionManagement {
 # Step 2. Add the dependency
 ```
 dependencies {
-        implementation 'com.github.gif-gif:android.io:Tag'
+        implementation 'com.github.gif-gif.android.io:androidio:0.0.10'
 }
 ```
 
