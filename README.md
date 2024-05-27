@@ -20,3 +20,5 @@ dependencies {
         implementation 'com.github.gif-gif:android.io:Tag'
 }
 ```
+
+[![](https://jitpack.io/v/gif-gif/android.io.svg)](https://jitpack.io/#gif-gif/android.io)
